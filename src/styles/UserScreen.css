@@ -1,0 +1,13 @@
+.user-screen-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-video {
+    align-self: center;
+    color: white;
+}

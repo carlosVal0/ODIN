@@ -1,23 +1,21 @@
+import { Link } from 'react-router-dom'
 import '../styles/LoginScreenV2.css'
 
 const LoginScreenV2 = () => {
     return (
         <div className='login-container'>
-            <div class="login-box">   
+            <div className="login-box">   
                 <h2>ODIN</h2>
                 <form>
-                    <div class="user-box">
+                    <div className="user-box">
                     <label>Usuario</label>
                     <input required="" name="" type="text" placeholder='correo@email.com'/>
                     </div>
-                    <div class="user-box">
+                    <div className="user-box">
                     <label>Contraseña</label>
                     <input required="" name="" type="password" placeholder='*********'/>
                     </div><center>
-                    <a href="#">
-                        Iniciar sesión
-                    <span></span>
-                    </a></center>
+                    <Link to="/main"> Iniciar sesión</Link></center>
                 </form>
             </div>
 

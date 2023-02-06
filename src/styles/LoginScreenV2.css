@@ -2,7 +2,7 @@
 
 .login-container {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(to top, black, 70%, rgba(0,0,0,0.5)), url('https://drive.google.com/uc?export=view&id=1GhoKZ08_Gi_VNiv1CEbCxViYt1DwJ1sQ');
+    background: linear-gradient(to top, black, 60%, rgba(0,0,0,0.5)), url('https://drive.google.com/uc?export=view&id=1GhoKZ08_Gi_VNiv1CEbCxViYt1DwJ1sQ');
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,8 @@
 
 .login-container h2 {
    font-family: 'Inter', sans-serif;
-   font-weight: 300;
+   font-weight: 800;
+   letter-spacing: 4px;
    color: white;
    margin-bottom: 50px;
    text-align: center;
@@ -46,6 +47,7 @@
   .login-box .user-box label {
 
     padding: 10px 0;
+    font-weight: 800;
     font-size: 16px;
     color: #fff;
     pointer-events: none;

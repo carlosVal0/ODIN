@@ -1,0 +1,20 @@
+.navigation-bottom-container{
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-radius: 12px;
+}
+
+.navigation-bottom-container .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+}
+
+.navigation-bottom-container .icon p{
+    font-size: 12px;
+    text-align: center;
+}

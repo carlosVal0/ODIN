@@ -1,0 +1,23 @@
+.status-bar-container {
+    height: 60px;
+    width: calc(100vw - 48px);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.status-bar-container .profile {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 12px;
+}
+
+.status-bar-container .profile [name="person-outline"]{
+    border-radius: 50%;
+    font-size: 24px;
+    border: 1px solid white;
+}
