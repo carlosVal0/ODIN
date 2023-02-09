@@ -1,4 +1,4 @@
-# App Patrimonio
+# App ODIN
  App desarrollada en React.js con el fin de gestionar y administrar recursos de patrimonio en diferentes formatos
 
 ## Instalación del proyecto para desarrollo
@@ -10,6 +10,7 @@ Ejecutar en consola los siguientes comandos en la carpeta donde se guardará el 
     git clone https://github.com/carlosVal0/AppPatrimonio.git
     cd AppPatrimonio
     npm install
+    npm run dev
     
 
 
